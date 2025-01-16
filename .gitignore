@@ -4,8 +4,8 @@
 #
 
 # Kendi igonrelarım
-/[Pp]roject[Ss]ettings/
-/[Pp]ackages/
+[Pp]roject[Ss]ettings/
+[Pp]ackages/
 
 
 /[Ll]ibrary/
