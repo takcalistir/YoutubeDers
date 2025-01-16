@@ -4,8 +4,7 @@
 #
 
 # Kendi igonrelarım
-ProjectSettings/*
-Packages/*
+
 
 
 /[Ll]ibrary/
