@@ -4,8 +4,8 @@
 #
 
 # Kendi igonrelarım
-[Pp]roject[Ss]ettings/
-[Pp]ackages/
+ProjectSettings/*
+Packages/*
 
 
 /[Ll]ibrary/
