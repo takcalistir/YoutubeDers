@@ -4,8 +4,8 @@ using UnityEngine.UI;
 public class NesneKontrol : MonoBehaviour
 {
     public Image nisangah;
-    Color renkAktif = Color.white;
-    Color renkPasif = Color.green;
+    Color renkVarsayilan = Color.green;
+    Color renkBulma = Color.white;
 
     public Transform tutusNokta;
     public float atisHizi;
@@ -55,13 +55,13 @@ public class NesneKontrol : MonoBehaviour
                         nesne.constraints = RigidbodyConstraints.FreezeRotation;
                     }
 
-                    nisangah.color = renkAktif;
+                    nisangah.color = renkBulma;
                     return;
                 }
             }
         }
 
-        nisangah.color = renkPasif;
+        nisangah.color = renkVarsayilan;
     }
 
     void NesneTut()
