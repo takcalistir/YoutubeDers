@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class KarakterKontrol : MonoBehaviour
 {
-    public float hiz;
-    public float fareHassasiyet;
-    public float fareBakisLimit;
+    public float hiz = 5;
+    public float fareHassasiyet = 2;
+    public float fareBakisLimit = 80;
 
     Rigidbody karakter;
     float xBakis = 0.0f;
